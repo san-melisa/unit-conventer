@@ -1,12 +1,15 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: "Inter", sans-serif;
-}
-
-
-.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EDEDED;
     
 }
+
 
 .header { 
     background-color: #6943FF;
