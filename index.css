@@ -18,6 +18,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 350px;
+    text-align: center;
 
 }
 
@@ -32,6 +34,7 @@ body {
     margin: 20px;
     border-radius: 4px;
     text-align: center;
+    min-height: 105px;
 }
 
 h2 {
@@ -57,7 +60,7 @@ input[type="number"] {
     padding: 5px 20px;
     margin: 10px auto;
     font-size: 80px;
-    width:100px;
+    width:130px;
     font-weight: 800;
     text-align: center;
     
@@ -81,4 +84,12 @@ button {
     padding: 13px 35px;
     color: #3D3D3D;
     font-size: 20px;
+}
+#error {
+    min-height: 17px;
+    margin: 0;
+}
+
+@mmedia (max-width: 600px) {
+
 }
