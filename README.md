@@ -1,19 +1,11 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Metric/Imperial Unit Converter
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This project is a unit converter built based on a [Figma design](https://www.figma.com/design/UE9rMlbkbbOn6sfrb2O7vI/Unit-Conversion?node-id=0-13&t=KUJqCTCnUOACAYQd-0). You can view the live project [here](https://unit-conventer1.netlify.app/).
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## About The Project
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+I first recreated the design with HTML and CSS to create a pixel-perfect user interface that is faithful to the Figma design. Then, I added core functionality with JavaScript to handle the unit conversion logic. This allows the application to automatically convert length, volume, and mass units based on the number you enter.
 
-Happy Coding!
+### Features
+* **HTML & CSS**: A user-friendly interface that matches the Figma design.
+* **JavaScript**: Functions to convert between Metric and Imperial units for length (meters/feet), volume (liters/gallons), and mass (kilograms/pounds).
